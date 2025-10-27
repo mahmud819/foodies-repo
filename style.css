@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: content-box;
 }
+
+.hidden{
+    display: none;
+}
 /* body{
     padding: 0 4rem;
 } */
@@ -45,6 +49,9 @@ nav{
 /* navbar css */
 
 @media screen and (max-width: 575px){
+    header{
+        padding: 0;
+    }
     .navMenu ul{
         display: none;
     }
@@ -91,19 +98,56 @@ nav{
     
 }
 .hero-logo{
+    width: 50%;
     display: flex;
+    padding-top: 11rem;
     justify-content: space-evenly;
 
 }
 .hero-logo img{
-    width: 90%;
-    margin-left: 10px;
+    width: 50%;
+    
+    
 }
-.
+.second-logo, .third-logo{
+    margin-left: 20px;
+}
 .hero-img{
     width: 50%;
     padding: 20px;
 }
 .hero-img img{
     width: 100%;
+}
+
+/* hero responsive css */
+
+@media screen and (max-width: 575px){
+    .hero-main{
+    flex-direction: column-reverse;
+    padding: 0rem;
+   }
+   .hero-context{
+    width: 100%;
+    padding: 0rem;
+  }
+  .hero-context h1{
+    font-size: 2rem;
+  }
+  .hero-context p{
+    font-size: 1rem;
+    padding: 1rem 0rem;
+  }
+  .hero-button{
+    margin-top: 1rem;
+  }
+  .hero-logo{
+    width: 50%;
+    padding: 2rem 0rem;
+   }
+   .hero-img{
+    width: 100%;
+    padding: 2rem 0rem;
+   }
+
 }
