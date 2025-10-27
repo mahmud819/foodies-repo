@@ -177,3 +177,27 @@ nav{
   }
 
 }
+
+/* service section css */ 
+
+.service-section{
+    padding: 2rem 0rem;
+}
+.service-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.service{
+    /* width: 8rem; */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+
+}
+.service h1{
+    font-size: 1rem;
+}
+.service-context{
+    margin: auto 0px;
+}
