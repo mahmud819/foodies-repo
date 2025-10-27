@@ -184,8 +184,10 @@ nav{
     padding: 2rem 0rem;
 }
 .service-main{
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 .service{
     /* width: 8rem; */
@@ -200,4 +202,20 @@ nav{
 }
 .service-context{
     margin: auto 0px;
+}
+
+/* service section responsive css */
+
+@media screen and (max-width: 575px){
+
+    .service-main{
+         grid-template-columns: repeat(2,1fr);
+    }
+    .service{
+    /* width: 8rem; */
+    /* display: flex; */
+    gap: 10px;
+    flex-direction: column;
+
+}
 }
