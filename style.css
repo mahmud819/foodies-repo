@@ -115,9 +115,25 @@ nav{
 .hero-img{
     width: 50%;
     padding: 20px;
+    position: relative;
 }
-.hero-img img{
+.hero-photo{
     width: 100%;
+}
+.hero-rating{
+    position: absolute;
+    top: 19rem;
+    left: -4rem;
+}
+.hero-quality{
+    position: absolute;
+    top: 13rem;
+    right: -2rem;
+}
+.hero-dot{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
 }
 
 /* hero responsive css */
@@ -149,5 +165,15 @@ nav{
     width: 100%;
     padding: 2rem 0rem;
    }
+   .hero-rating{
+    top: 21rem;
+    left: 1.5rem;
+    z-index: 20;
+  }
+  .hero-quality{
+    top: 25rem;
+    right: 3.5rem;
+    z-index: 10;
+  }
 
 }
