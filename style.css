@@ -181,13 +181,14 @@ nav{
 /* service section css */ 
 
 .service-section{
-    padding: 2rem 0rem;
+    padding: 2rem 2.5rem;
 }
 .service-main{
     /* display: flex;
     justify-content: space-evenly; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    gap: 5px;
 }
 .service{
     /* width: 8rem; */
@@ -208,8 +209,12 @@ nav{
 
 @media screen and (max-width: 575px){
 
+    .service-section{
+    padding: 2rem 0.5rem;
+}
     .service-main{
          grid-template-columns: repeat(2,1fr);
+         gap: 20px;
     }
     .service{
     /* width: 8rem; */
@@ -218,4 +223,52 @@ nav{
     flex-direction: column;
 
 }
+}
+
+/* Healthy food section css */
+
+.healthy-food-section{
+    padding: 2rem 2.5rem;
+}
+.healthy-food-main{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.healthy-food-image{
+    width: 50%;
+}
+.healthy-food-image img{
+    width: 100%;
+    padding: 20px;
+}
+.healthy-food-context{
+    width: 50%;
+    padding-top: 5rem;
+    padding-left: 4rem;
+    margin-left: 3rem;
+}
+.healthy-food-context h1{
+    font-size: 3rem;
+    color: #1D1D1F;
+    padding: 2rem 0rem;
+}
+
+.healthy-small-p{
+    color: #1D1D1F;
+}
+.list-div{
+    padding-top: 0.5rem;
+}
+.list{
+    display: flex;
+    gap: 10px;
+    padding: 0.5rem 0rem;
+}
+.list i{
+    color: #06C167;
+    font-size: 2rem;
+}
+.list p{
+    font-size: 1.5rem;
 }
