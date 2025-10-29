@@ -625,3 +625,46 @@ nav{
     color: #06C167;
     padding-left: 10px;
 }
+
+/* popular products section responsive css */
+
+@media screen and (max-width: 575px){
+
+    .popular-product-section{
+    padding: 2rem 0.5rem;
+}
+.popular-product-title{
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+.popular-product-context p{
+    /* font-size: 1.5rem; */
+    text-align: center;
+}
+.popular-card-group{
+    grid-template-columns: repeat(1,1fr);
+}
+.popular-card{
+    width: 100%;
+}
+.popular-card:hover{
+    border: 2px solid #06C167;
+}
+
+.popular-card-button button{
+    width: 80%;
+    color: #06C167;
+    border: 1px solid #06C167;
+    outline: none;
+    padding: 0.5rem 2rem;
+}
+.popular-card-button i{
+    position: absolute;
+    top: 0.5rem;
+    left: 13rem;
+    color: #06C167;
+    padding-left: 15px;
+}
+
+}
