@@ -462,3 +462,68 @@ nav{
     width: 90%; 
 }
 }
+
+/* feature section css */
+
+.feature-section{
+    padding: 2rem 2.5rem;
+}
+/* .feature-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+} */
+.feature-context{
+    margin: 0 auto;
+    text-align: center;
+    color: #1D1D1F;
+}
+.feature-context p{
+    font-size: 1.5rem;
+}
+.feature-title{
+    font-size: 4rem;
+    padding: 1.5rem 0;
+}
+.feature-cards-group{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 3rem 0;
+}
+.image-card{
+    width: 15.5rem;
+    /* height: 8rem; */
+}
+.image-card img{
+    width: 100%;
+}
+.context-card{
+    width: 15.5rem;
+    box-sizing: border-box;
+    padding: 1.5rem;
+}
+.context-card h1{
+    font-size: 2rem;
+}
+.context-card p{
+    padding: 1.5rem 0;
+}
+
+.card-button{
+    position: relative;
+    color: #06C167;
+}
+.card-button button{
+    color: #06C167;
+    /* border: none; */
+    outline: none;
+    padding: 0.5rem 2rem;
+    border: none;
+    background-color: #fff;
+}
+.card-button i{
+    position: absolute;
+    top: 0.5rem;
+    left: 8rem;
+}
