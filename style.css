@@ -81,10 +81,8 @@ nav{
     font-size: 1.5rem;
     padding: 2rem 0rem;
 }
-.hero-btn i{
-    margin-left: -1.5rem;
-    color: white;
-    font-weight: bold;
+.hero-btn{
+    position: relative;
 }
 .hero-button{
     width: 8rem;
@@ -94,8 +92,13 @@ nav{
     color: white;
     font-weight: bold;
     border: none;
-    
-    
+}
+.hero-btn i{
+    position: absolute;
+    top: 0.8rem;
+    left: 7rem;
+    color: white;
+    font-weight: bold;
 }
 .hero-logo{
     width: 50%;
@@ -175,6 +178,17 @@ nav{
     right: 3.5rem;
     z-index: 10;
   }
+  .hero-btn{
+    width: 100%;
+}
+.hero-btn i{
+    top: 1.7rem;
+    left: 14rem;
+    
+}
+.hero-button{
+    width: 90%; 
+}
 
 }
 
@@ -271,4 +285,180 @@ nav{
 }
 .list p{
     font-size: 1.5rem;
+}
+
+/* healthy food section responsive css */
+
+@media screen and (max-width: 575px){
+    body{
+        padding: 0rem 1rem;
+    }
+    .healthy-food-section{
+    padding: 2rem 0rem;
+}
+.healthy-food-main{
+    flex-direction: column;
+    
+}
+.healthy-food-image{
+    width: 100%;
+}
+.healthy-food-image img{
+    width: 100%;
+    padding: 0;
+}
+.healthy-food-context{
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 0rem;
+    margin-left: 0rem;
+}
+.healthy-food-context h1{
+    font-size: 2rem;
+    color: #1D1D1F;
+    padding: 2rem 0rem;
+}
+.list{
+    display: flex;
+    gap: 10px;
+    padding: 0.5rem 0rem;
+}
+.list i{
+    color: #06C167;
+    font-size: 1rem;
+}
+.list p{
+    font-size: 1rem;
+}
+}
+
+/* Veggie section css */
+
+.veggie-food-section{
+    padding: 2rem 2.5rem;
+}
+.veggie-food-main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.veggie-food-image{
+    width: 50%;
+    
+}
+.veggie-food-image img{
+    width: 100%;
+    padding: 20px;
+}
+.veggie-food-context{
+    width: 50%;
+    padding: 2rem;
+    margin: auto 0;
+}
+.veggie-food-context h1{
+    font-size: 3rem;
+    color: #1D1D1F;
+    padding: 1rem 0rem;
+    
+}
+
+.veggie-small-p{
+    color: #1D1D1F;
+}
+.veggie-div{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 0rem;
+    margin-left: -10px;
+}
+.veggie-rating{
+    padding: 1rem;
+    
+}
+.veggie-rating h2{
+    color: #06C167;
+    font-size: 2rem;
+    text-align: center;
+}
+.veggie-rating p{
+    font-size: 1rem;
+}
+.veggie-btn{
+   position: relative;
+}
+.veggie-btn i{
+    position: absolute;
+    color: white;
+    top: 0.8rem;
+    left: 7rem;
+    font-weight: bold;
+}
+.veggie-button{
+    width: 8rem;
+    height: 1.5rem;
+    padding: 0.5rem;
+    background-color: #06C167;
+    color: white;
+    font-weight: bold;
+    border: none; 
+}
+
+/* veggie section responsive css*/
+
+@media screen and (max-width: 575px){
+
+    .veggie-food-section{
+    padding: 2rem 0rem;
+}
+.veggie-food-main{
+    flex-direction: column-reverse;
+}
+.veggie-food-image{
+    width: 100%; 
+}
+.veggie-food-image img{
+    width: 100%;
+    padding: 0;
+}
+.veggie-food-context{
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: auto 0;
+}
+.veggie-food-context h1{
+    font-size: 2rem;
+    color: #1D1D1F;
+    padding: 1rem 0rem;
+}
+
+.veggie-small-p{
+    color: #1D1D1F;
+}
+.veggie-div{
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0rem;
+}
+.veggie-rating{
+    padding: 1rem; 
+}
+.veggie-rating h2{
+    color: #06C167;
+    font-size: 2rem;
+    text-align: center;
+}
+.veggie-rating p{
+    font-size: 1rem;
+    text-align: center;
+}
+.veggie-btn{
+    width: 100%;
+}
+.veggie-btn i{
+    top: 0.8rem;
+    left: 14rem;
+}
+.veggie-button{
+    width: 90%; 
+}
 }
