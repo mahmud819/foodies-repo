@@ -527,3 +527,44 @@ nav{
     top: 0.5rem;
     left: 8rem;
 }
+
+/* feature section responsive */
+
+@media screen and (max-width: 575px){
+    .feature-section{
+    padding: 2rem 0.5rem;
+}
+
+.feature-title{
+    font-size: 3rem;
+    padding: 1.5rem 0;
+}
+.feature-cards-group{
+    
+    grid-template-columns: repeat(1,1fr);
+    padding: 3rem 0;
+}
+.image-card{
+    width: 100%;
+    /* height: 8rem; */
+}
+.image-card img{
+    width: 100%;
+}
+.context-card{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem;
+}
+.context-card h1{
+    font-size: 3rem;
+}
+.context-card p{
+    padding: 1.5rem 0;
+}
+.card-button i{
+    position: absolute;
+    top: 0.5rem;
+    left: 8rem;
+}
+}
