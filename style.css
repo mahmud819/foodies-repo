@@ -568,3 +568,60 @@ nav{
     left: 8rem;
 }
 }
+
+/* Popular product section css */
+
+.popular-product-section{
+    padding: 2rem 2.5rem;
+}
+.popular-product-title{
+    font-size: 4rem;
+    padding: 2rem 0;
+}
+.popular-product-context p{
+    font-size: 1.5rem;
+}
+.popular-card-group{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    padding: 2rem 0;
+}
+.popular-card{
+    width: 80%;
+    padding: 1rem;
+    border: 2px solid #76767540;
+    text-align: center;
+}
+.popular-card-rating{
+    padding: 0.5rem 0;
+}
+.popular-card h3{
+    padding: 1rem 0;
+}
+.popular-card p{
+    padding: 1rem 0;
+}
+.popular-card span{
+    color: #06C167;
+    margin-left: 0.5rem;
+}
+.popular-card:hover{
+    border: 2px solid #06C167;
+}
+.popular-card-button{
+    position: relative;
+}
+.popular-card-button button{
+    color: #06C167;
+    border: 1px solid #06C167;
+    outline: none;
+    padding: 0.5rem 2rem;
+}
+.popular-card-button i{
+    position: absolute;
+    top: 0.5rem;
+    left: 7.5rem;
+    color: #06C167;
+    padding-left: 10px;
+}
