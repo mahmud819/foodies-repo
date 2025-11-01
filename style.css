@@ -813,3 +813,15 @@ nav{
     outline: none;
     border: none;
 }
+
+
+
+/* copy right section css */
+
+.copy-right{
+    padding:  1rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #d7ddda;
+}
