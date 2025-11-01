@@ -748,3 +748,68 @@ nav{
 }
 
 }
+
+/* footer section css */
+
+.footer-section{
+    padding: 2rem 2.5rem;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    width: 20%;
+    /* padding: 1rem; */
+}
+.footer-logo p{
+    padding: 2rem 0;
+}
+.footer-icon{
+    display: flex;
+    margin-left: -20px;
+    margin-top: 20px;
+
+}
+.footer-icon i{
+    padding-left: 20px;
+
+}
+.footer-menu{
+    width: 70%;
+    margin-left: 6rem;
+    display: flex;
+    justify-content: space-between
+}
+.f-menu{
+    width: 30%;
+}
+.f-menu ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.f-menu ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.f-menu ul{
+    padding-top: 2rem;
+}
+.footer-touch{
+    width: 50%;
+}
+.footer-touch p{
+    padding: 2.5rem 0;
+}
+.footer-input input{
+    background-color: #F3FCF7;
+    padding: 10px 15px;
+}
+.footer-input button{
+    padding: 10px 15px;
+    background-color: #06C167;
+    color: white;
+    outline: none;
+    border: none;
+}
