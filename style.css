@@ -73,6 +73,7 @@ nav{
 .hero-context{
     width: 50%;
     padding: 3rem 1rem;
+    
 }
 .hero-context h1{
     font-size: 4rem;
@@ -205,12 +206,14 @@ nav{
     gap: 5px;
 }
 .service{
-    /* width: 8rem; */
+    /* width: 15rem; */
     display: flex;
     justify-content: center;
     justify-items: center;
     gap: 10px;
-
+}
+.service:hover{
+    border: 1px solid #06C167;
 }
 .service h1{
     font-size: 1rem;
