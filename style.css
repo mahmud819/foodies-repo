@@ -539,7 +539,7 @@ nav{
 }
 
 .feature-title{
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 1.5rem 0;
 }
 .feature-cards-group{
@@ -560,7 +560,7 @@ nav{
     padding: 1.5rem;
 }
 .context-card h1{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .context-card p{
     padding: 1.5rem 0;
@@ -587,7 +587,7 @@ nav{
 .popular-card-group{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 1rem;
+    /* gap: 1rem; */
     padding: 2rem 0;
 }
 .popular-card{
@@ -637,7 +637,7 @@ nav{
     padding: 2rem 0.5rem;
 }
 .popular-product-title{
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 2rem 0;
     text-align: center;
 }
@@ -647,15 +647,21 @@ nav{
 }
 .popular-card-group{
     grid-template-columns: repeat(1,1fr);
+    gap: 10px;
 }
 .popular-card{
-    width: 100%;
+    width: 90%;
+    text-align: center;
+    
 }
 .popular-card:hover{
     border: 2px solid #06C167;
 }
-
+.popular-card-button{
+    display: flex;
+}
 .popular-card-button button{
+    text-align: center;
     width: 80%;
     color: #06C167;
     border: 1px solid #06C167;
@@ -665,7 +671,7 @@ nav{
 .popular-card-button i{
     position: absolute;
     top: 0.5rem;
-    left: 13rem;
+    left: 10rem;
     color: #06C167;
     padding-left: 15px;
 }
@@ -713,9 +719,9 @@ nav{
 .ingredients-button i{
     position: absolute;
     top: 1rem;
-    left: 27.5rem;
+    left: 28rem;
     color: white;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 /* ingredients section responsive css */
